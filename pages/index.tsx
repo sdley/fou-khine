@@ -1,9 +1,20 @@
-export default function Home() {
+import SearchBox from "../components/SearchBox";
+import Head from "next/head";
+export default function Search() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-        Hello world
-      </p>
-    </main>
+    <>
+      <Head>
+        <title>WeatherWise</title>
+      </Head>
+      <main className="mt-5 mx-5">
+        <h1 className="text-xl font-medium mb-4">WeatherWise</h1>
+        <form>
+          <h2 className="text-lg mb-4">Search for local weather</h2>
+          <div className="mb-4">
+            <SearchBox />
+          </div>
+        </form>
+      </main>
+    </>
   );
 }
