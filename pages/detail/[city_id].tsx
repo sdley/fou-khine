@@ -46,7 +46,7 @@ export default function funcName({ city, weather }: Props) {
           &larr; Home
         </Link>
         <div className="py-5">
-          <div className="bg-blue-500 rounded p-4">
+          <div className="bg-green-500 rounded p-4">
             <div className="grid grid-cols-2">
               <div>
                 <h2 className="text-2xl mb-4 text-white">
