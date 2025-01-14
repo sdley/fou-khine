@@ -4,10 +4,10 @@ export default function Search() {
   return (
     <>
       <Head>
-        <title>Fou-khine</title>
+        <title>WeatherWise</title>
       </Head>
       <main className="mt-5 mx-5">
-        <h1 className="text-xl font-medium mb-4">Fou-khine</h1>
+        <h1 className="text-xl font-medium mb-4">WeatherWise [by sdley - Souleymane DIALLO]</h1>
         <form>
           <h2 className="text-lg mb-4">Search for local weather</h2>
           <div className="mb-4">

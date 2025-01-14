@@ -41,7 +41,7 @@ export default function funcName({ city, weather }: Props) {
         <title>WeatherWise</title>
       </Head>
       <main className="mt-5 mx-5">
-        <h1 className="text-xl font-medium mb-4">WeatherWise</h1>
+        <h1 className="text-xl font-medium mb-4">WeatherWise [by sdley - Souleymane DIALLO]</h1>
         <Link href="/" className="text-sm">
           &larr; Home
         </Link>
